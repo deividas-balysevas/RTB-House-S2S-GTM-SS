@@ -1,16 +1,16 @@
 # RTB-House-S2S-GTM-SS
 RTB House Google Tag Manager Serve-Side template for S2S integration
 
-
 Data is passed to the server-side container primarily by firing GA4 tags in the web container.
+
 ● Google Analytics: GA4 Configuration tag
 ○ Send to server container enabled
 ○ Server container url set
+
 ● Google Analytics: GA4 Event tag
 ○ Configuration Tag set as the server-side GA4 Configuration tag
 ○ Triggered on the corresponding web container event
-○ Web variables can be passed from web -> server by defining them as event
-parameters for each GA4 Event tag.
+○ Web variables can be passed from web -> server by defining them as event parameters for each GA4 Event tag.
 
 First party cookies can be accessed inside the server-side container so long as the server
 container is set up as a subdomain of the web container website.
