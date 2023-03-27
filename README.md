@@ -26,21 +26,35 @@ each event that you want to tag.
 RTB House AID Template
 This template can be used in the GTM Web Container to create a tag that will do the following:
 ● Set/get a local storage identifier: __rtbhouse.lid
+
 ● Set/get a first party cookie: __rtbh.aid
+
 ● Collect site url and site referrer from the page (su / sr params)
+
 ● Fire an iframe multi tag with the following:
+
 ○ aid tag
+
 ○ lid tag
+
 ○ su
+
 ○ sr
 
-Import
+
+Import:
+
 ● Navigate to the Templates section of your GTM Web Container and select Tag Templates > New
+
 ● On the top right, open options and select Import
+
 ● Select the RTB House AID Template - Beta.tpl file, and hit Save.
 
-Configuration
+
+Configuration:
+
 ● Create a new tag in your GTM container and choose RTB House AID Template - Beta
+
 ● Select the Tagging hash and Region provided by your RTB House representative
-● Set a trigger to fire this tag at least once per session when a user first arrives on the
-website. Alternatively this tag can be fired on every page view.
+
+● Set a trigger to fire this tag at least once per session when a user first arrives on the website. Alternatively this tag can be fired on every page view.
